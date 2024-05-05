@@ -1,2 +1,4 @@
 # Project-Sport_Center
- Project-1
+
+ Hello whom read this information.
+I designed a sports center website using HTML, CSS, and JavaScript. The website has features with buttons and a responsive navbar for easy access to different sections like Home, Our Classes, Trainers, Review, and Contact pages. It includes interactive elements such as a BMI Calculator for fitness enthusiasts. Hover effects and button activations are also actively used on the page. The site is visually appealing with strategically placed images showcasing the facility and its offerings. Through JavaScript, I implemented dynamic content updates, enabling users to switch between class descriptions and images seamlessly. Overall, the website offers a user-friendly interface, engaging features, and informative content to satisfy to the needs of both fitness enthusiasts and clients.
