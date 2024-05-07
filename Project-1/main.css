@@ -1,6 +1,6 @@
 .bg-home{
     width: 100%;
-    height: 80%;
+    height: 582px;
 }
 .logo{
     margin-left:18%;
@@ -11,11 +11,10 @@
 }
 .navbar{
     margin-top: 0px;
-    margin-left: 50%;  
+    margin-left: 800px;  
     width: 500px;
     height: 40px;
     position: fixed;
-    background-color: #355592;
     align-items: center;
     padding: 10px;
     
@@ -28,8 +27,6 @@
     font-size: smaller;
     padding-left: 10px;
     padding-right: 10px;
-    border: 2px solid greenyellow;
-    border-radius: 5px;
     
 }
 
@@ -95,7 +92,7 @@
     font-size: medium;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left:18%;
+    margin-left:270px;
     margin-top: 410px;
     position: absolute;
 }
@@ -110,7 +107,7 @@
     font-size: medium;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left:27.5%;
+    margin-left:400px;
     margin-top: 410px;
     position: absolute;
     background-color: rgba(240, 248, 255, 0);
@@ -174,7 +171,7 @@
     background-color: rgb(71, 77, 191);
     border: none;
     color: white;
-    padding: 8px 15px;
+    padding: 8px 25px;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
@@ -186,7 +183,6 @@
   }
 
 .container{
-    background-color: white;
     width: 400px;
     height: 250px;
     margin-top: -50px;
@@ -207,7 +203,7 @@
 }
 
 .buttons1-container{
-    width: 60%;
+    width: 100%;
 }
 
 .container2{
@@ -271,6 +267,18 @@
     background-color: rgb(66, 66, 187);
     height: 100px;
     width: 100px;
+}
+
+.trainers{
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 110px;
+}
+
+.trainer3{
+    margin-top: 30px; 
+    gap: 0px; 
+    margin-left: 200px;
 }
 
 .trainer-img{
@@ -371,7 +379,7 @@ container4 p{
 }
 
 .client-container{
-    margin-top: -30px;
+    margin: 120px;
     height: 400px;
     justify-items: start;
     justify-content: start;
@@ -388,6 +396,11 @@ container4 p{
 }
 .client{
     width: 80px;
+}
+
+.Reviews{
+    display: flex;
+    flex-direction: row;
 }
 .review-container1{
     background-color: #4666a3;
@@ -472,6 +485,11 @@ container4 p{
     text-align: start;
     margin-left: 80px;
 }
+.MakeanAppointment{
+    display: flex;
+    justify-content: center; 
+    margin-left: -46px
+}
 .input1{
     background-color:rgba(189, 222, 245, 0.39);
     width: 450px;
@@ -500,6 +518,11 @@ container4 p{
 ::placeholder{
     text-align: start;
 }
+.map-frame{
+    width: 500px; 
+    height: 350px; 
+    margin-top: 125px;
+}
 
 footer{
     width: 100%;
@@ -515,10 +538,12 @@ footer{
 footer p{
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 280px;
 }
 footer h4{
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 280px;
 }
 .container7{
     justify-content: center;
@@ -526,6 +551,7 @@ footer h4{
     text-align: start;
     align-items: center;
     align-content: center;
+    margin-top: 50px;
 }
 .container8{
     justify-content: center;
@@ -535,10 +561,21 @@ footer h4{
     align-content: center;
     display: flex;
 }
+.ClassImage{
+    width: 380px;
+}
+.Helpful{
+    text-align: start;
+    margin-left: 350px;
+}
 <!-- Many CSS features were used for structural and visual harmony. -->
 
 @media screen and (max-width:576px){
-    
+    #buttons1-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     #button4{
         width: 100%;
     }
@@ -552,7 +589,7 @@ footer h4{
         flex-direction: column;
         height: auto;
     }
-    #grid-container{
+    #grid-items{
         width: 100%;
     }
     #p1{
@@ -593,5 +630,251 @@ footer h4{
         flex-direction: column;
         height: auto;
     }
+}
+@media only screen and (max-width: 576px) {
+    .buttons1-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button4{
+      width: 90%;
+      margin-bottom: 10px; 
+      margin-left: 0px;
+    }
+    .button5{
+        width: 90%;
+        margin-top: 450px; 
+        margin-left: 0px;
+    }
+    #p1{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    .grid-container{
+        height:490px;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-items{
+        width: 70%;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .logo{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .navbar{
+        margin-left: -5px;
+        position: fixed;
+    }
+    .button2{
+        margin-left: 5%;
+    }
+    .homepage{
+        margin-left: 5%;
+    }
+    .second-page{
+        margin-top: 1050px;
+        height: 950px;
+    }
+    #p2{
+        width: 60%;
+        margin-left: 100px;
+    }
+    #container1{
+        width: 100%;
+    }
+    #buttonclass1{
+        position: absolute;
+        margin-right: 150px;
+    }
+    #buttonclass2{
+        position: absolute;
+        margin-left: 150px;
+    }
+    #buttonclass3{
+        position: absolute;
+        margin-top: 120px;
+        margin-right: 175px;
+    }
+    #buttonclass4{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 145px;
+    }
+    .container{
+        width: 90%;
+    }
+    #ClassHead1{
+        position: absolute;
+        margin-top: 10px;
+        width: 90%;
+        align-content: center;
+        margin-left: -120px;
+    }
+    #ClassContent1{
+        position: absolute;
+        margin-top: 40px;
+        width: 90%;
+        align-content: center;
+        margin-left: -120px;
+    }
+    #ClassHead2{
+        position: absolute;
+        margin-top: 130px;
+        width: 90%;
+        align-content: center;
+        margin-left: -120px;
+    }
+    #ClassContent2{
+        position: absolute;
+        margin-top: 160px;
+        width: 90%;
+        align-content: center;
+        margin-left:-120px;
+    }
+    #imgClasses{
+        position: absolute;
+        margin-top: 550px;
+        align-content: center;
+        margin-left: -140px;
+        width: 450px;
+    }
+    #Calculator{
+        margin-top: -280px;
+        width: 80%;
+        position: absolute;
+        margin-left: 60px;
+    }
+    .container3{
+        height: 530px;
+        margin-left: 50px;
+    }
+    #BMI{
+        position: absolute;
+        margin-top: 360px;
+        margin-left: 10px;
+    }
+    #formBMI{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 60%;
+    }
+    #Trainer{
+        width: 100%;
+        height: 1300px;
+    }
+    #trainers{
+        position: absolute;
+        margin-left: -50px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #trainer3{
+        margin-left: 0px;
+    }
+    #container5{
+        height: 1480px;
+    }
+    .purchase-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    #Review{
+        height: 720px;
+    }
+    .client-container{
+        flex-direction: column;
+        width: 480px;
+        margin-top: 20px;
+    }
+    .review-container1{
+        width: 100%;
+        height: auto;
+    }
+    .review-container2{
+        width: 100%;
+        height: auto;
+    }
+    #Contacts-p{
+        width: 80%;
+    }
+    #Contact-Stick{
+        margin-top: 15px;
+    }
+    #container6{
+        width: 80%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        align-content: start;
+        text-align: start;
+        justify-items: center;
+    }
+    #Contact-Information{
+        margin-left: 0px;
+        gap: 60px;
+
+    }
+    .MakeanAppointment{
+        margin-left: -300px;
+    }
+    #Contact-Form{
+        margin-left: -225px;
+        margin-bottom: 20px;
+    }
+    .map-frame{
+        margin-left: -80px;
+        margin-top: 30px;
+        width: 440px;
+        width: 470px;
+    }
+    footer{
+        height: 900px;
+        margin-top: 50px;
+    }
+    #container7{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        align-content: start;
+        text-align: start;
+        justify-items: start;
+        
+    }
+    .footer-p{
+        margin-left: 20px;
+        width: 100%;
+    }
+    #container8{
+        margin-left: -300px;
+    }
+    #Helpful{
+        margin-left: -240px;
+    }
+
 }
 <!-- Responsive features have been adjusted to appear correctly at low resolutions. -->
